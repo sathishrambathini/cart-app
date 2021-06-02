@@ -1,0 +1,15 @@
+<div>
+    <div class="products" *ngFor="let product of products">
+        <div>
+            <img width="100px" height="80px" [src]="product.image_url" >
+        <h4>{{product.name}} - {{product.modal}}</h4>
+        <p>{{product.descripton}}</p>
+        <p>{{product.cost}}</p>
+    </div>
+        <div>
+            <button [ngClass]="{'disabled' : product.isAddedTOCart, 'btn' : !product.isAddedTOCart}" [disabled]="product.isAddedTOCart" (click)="addtoCart(product)">add to cart</button>
+            <br><br>
+            <button [ngClass]="{'btn' : product.isAddedTOCart, 'disabled' : !product.isAddedTOCart}"  [disabled]="!product.isAddedTOCart" (click)="subtract(product)"> Remove From Cart</button>
+        </div>
+    </div>
+</div>

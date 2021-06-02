@@ -1,0 +1,16 @@
+.nav{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+}
+.btn{
+    background-color: #db8686;
+    color: white;
+    border-radius: 4px;
+    height: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 120px;
+    cursor: pointer;
+}

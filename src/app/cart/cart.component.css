@@ -1,0 +1,24 @@
+.products{
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid #242424;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.msg{
+    text-align: center;
+}
+.total{
+    text-align: end;
+    margin-right: 12px;
+}
+.btn{
+    background-color: #242424;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
